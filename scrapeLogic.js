@@ -44,9 +44,3 @@ const runPuppeteerScript = async (url) => {
     process.exit(1);
   }
 };
-
-  // Get the URL of the current page
-    const currentUrl = window.location.href;
-
-// Run the script with the provided URL
-runPuppeteerScript(currentUrl);
