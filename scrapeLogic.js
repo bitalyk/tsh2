@@ -44,3 +44,4 @@ const runPuppeteerScript = async (url) => {
     process.exit(1);
   }
 };
+module.exports = { runPuppeteerScript };
